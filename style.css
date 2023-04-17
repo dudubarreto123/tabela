@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    background-image: url(https://thumbs.dreamstime.com/z/tabela-de-multiplica%C3%A7%C3%A3o-colorida-68071998.jpg);
+}
+
+
+
+header {
+    text-align: center;
+    color: aqua;
+    background-color: black;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 36px;
+    text-shadow: 2px 2px 2px black;
+}
+
+h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: rgb(122, 15, 15);
+}
+
+section{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    color: rgb(32, 151, 180);
+    padding: 45px 30px;
+    border-radius: 10px;
+}
+
+span {
+    color: white;
+}
+
+#separa {
+    color: rgb(218, 210, 210);
+}
+
+#toggle-mode {
+    text-shadow: 1px 1px 1px rgb(252, 252, 252);
+}
+
+main{
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#toggle-mode {
+    text-shadow: 1px 1px 1px rgb(233, 219, 219);
+}
+
+.dark-mode {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.dark-mode header {
+    background-color: greenyellow;
+    color: rgb(255, 255, 255);
+}
+
+.dark-mode #span {
+    color: black;
+}
+
+.dark-mode #separa {
+    color: rgb(255, 255, 255);
+}
+
+
